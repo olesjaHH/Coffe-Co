@@ -32,7 +32,7 @@ nav {
 nav ul {
     margin: 0;
     list-style: none;
-    margin-left: 65%;
+    margin-left: 60%;
 }
 nav ul li {
     display: inline-block;
@@ -73,17 +73,24 @@ main section:nth-of-type(1) div p:last-of-type {
 main section:nth-of-type(2) {
     background: url(../img/cake_icon.png) center / cover no-repeat;
     text-align: center;
+
 }
-main section:nth-of-type(2) div:nth-of-type(2) {
-    width: 25%;
+main section:nth-of-type(2) figure {
+    width: 35%;
     text-align: center;
     margin-left: 30%;
 }
-main section:nth-of-type(2) h1 {
+main section:nth-of-type(2) figure h1 {
     font-size: 40px;
     margin-bottom: 1%;
 }
-main section:nth-of-type(2) img {
+main section:nth-of-type(2) h3 {
+    margin: 0 0 2px 0;
+}
+main section:nth-of-type(2) p {
+    margin: 1%;
+}
+main section:nth-of-type(2) figure img {
     width: 20%;
 }
 main section:nth-of-type(2) a {
@@ -91,6 +98,142 @@ main section:nth-of-type(2) a {
     text-decoration: none;
     color: #000;
 }
-main section:nth-of-type(2) {
+.bordersection {
+    border: 1px solid #000;
+    padding: 1% 2%;
+    margin: 2%;
+    border-radius: 1%;
+}
 
+/* Main Article */
+
+.parallax2 {
+    background: url(../img/bridge_2.jpg) center / cover no-repeat;
+    min-height: 250px;
+    background-attachment: fixed;
+}
+main article:nth-of-type(1) {
+    width: 100%;
+    height: 90vh;
+}
+main article:nth-of-type(1) div:nth-of-type(2) h1 {
+    padding: 10% 0 0 0;
+    margin-bottom: 0;
+}
+main article:nth-of-type(1) div:nth-of-type(2) {
+    width: 33%;
+    margin-left: 20%;
+}
+main article:nth-of-type(1) img:nth-of-type(1) {
+    width: 20%;
+    position: relative;
+    left: +65%;
+    bottom: +22%;
+}
+
+/* Main Article 2 */
+
+.parallax3 {
+    background: url(../img/bridge_3.jpg) center / cover no-repeat;
+    min-height: 250px;
+    background-attachment: fixed;
+}
+main article:nth-of-type(2) {
+   
+    width: 100%;
+    height: 90vh;
+}
+main article:nth-of-type(2) div:nth-of-type(2) {
+    /* background: url(../img/pie_icon.png) center / cover no-repeat; */
+    margin-left: 50%;
+    width: 33%;
+    position: absolute;
+}
+/* main article:nth-of-type(2) img:nth-of-type(1) {
+    width: 25%;
+    position: relative;
+    left: +20%;
+    bottom: +23%;
+} */
+main article:nth-of-type(2) img:nth-of-type(1) {
+    width: 29%;
+    position: relative;
+    left: +17%;
+    bottom: +13%;
+}
+main article:nth-of-type(2) img:nth-of-type(2) {
+    width: 41%;
+    position: relative;
+    left: 28%;
+    top: 1%;
+}
+main article:nth-of-type(2) div:nth-of-type(2) a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 3px 3px;
+}
+
+/* Main Article 3 */
+
+.parallax4 {
+    background: url(../img/bridge_4.jpeg) center / cover no-repeat;
+    min-height: 250px;
+    background-attachment: fixed;
+}
+main article:nth-of-type(3) {
+    /* background: url(../img/muffin_icon.png) center / cover no-repeat; */
+    width: 100%;
+    height: 70vh;
+  
+}
+main article:nth-of-type(3) div:nth-of-type(2) {
+    margin-left: 50%;
+    width: 33%;
+    position: absolute;
+}
+main article:nth-of-type(3) img:nth-of-type(1) {
+    width: 25%;
+    position: relative;
+    left: +20%;
+    bottom: +35%;
+}
+main article:nth-of-type(3) img:nth-of-type(2) {
+    width: 40%;
+    position: relative;
+    left: -35%;
+    top: -5%;
+}
+main article:nth-of-type(3) div:nth-of-type(2) a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 3px 3px;
+}
+
+/* Footer */
+
+footer {
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+footer h1 {
+    margin: 0;
+    padding-top: 30px;
+}
+footer p {
+    margin: 1%;
+}
+footer a img {
+    display: block;
+    width: 5%;
+    margin-left: 48%;
+}
+footer a:nth-of-type(3) img:nth-of-type(1) {
+    display: block;
+    width: 15%;
+    margin-left: 42%;
+    padding-top: 1%;
+    padding-bottom: 4%;
 }
