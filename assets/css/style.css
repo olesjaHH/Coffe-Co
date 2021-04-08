@@ -26,18 +26,23 @@ header {
 nav {
     background: #fff;
     width: 100%;
-    padding: 2% 0 2% 2%;
     position: fixed;
 }
 nav ul {
-    margin: 0;
-    list-style: none;
-    margin-left: 60%;
+   list-style-type: none;
+   text-align: right;
 }
 nav ul li {
     display: inline-block;
+    padding: 1% 2% 1% 1%;
+}
+nav ul li a {
+    text-decoration: none;
     color: #000;
     padding-left: 4%;
+}
+nav ul li:hover {
+    text-decoration: underline;
 }
 header img {
     width: 75%;
@@ -79,6 +84,8 @@ main section:nth-of-type(2) figure {
     width: 35%;
     text-align: center;
     margin-left: 30%;
+    padding-bottom: 5%;
+    margin-bottom: 0;
 }
 main section:nth-of-type(2) figure h1 {
     font-size: 40px;
